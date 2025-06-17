@@ -14,6 +14,7 @@ public class MyController {
 	}
 	@GetMapping("/abouturl")
 	public String aboutPage() {
+		System.out.println("/abouturl END Point");
 		return "about";
 	}
  @GetMapping("/loginpage")
