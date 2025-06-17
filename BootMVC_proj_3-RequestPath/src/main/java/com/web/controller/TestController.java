@@ -18,7 +18,7 @@ public class TestController {
 	@RequestMapping(value="/report" ,method=RequestMethod.GET)
 	
 	public String showReport(Map<String,Object>map) {
-		System.out.println("TestController.showreport");
+		System.out.println("TestController.showRepost");
 		return "display";
 		
 	}
